@@ -1,0 +1,40 @@
+data:
+  image_size: 1500
+  patch_size: 256
+  channels: 3
+  class_mapping:
+    0: 背景
+    1: 建筑物
+  color_mapping:
+    0: 0,0,0
+    1: 255,255,255
+  center_area_perc: 0.5
+hyperparams:
+  batch_size: 32
+  num_epochs: 80
+  learning_rate: 0.0001
+  lr_patience: 3
+  lr_factor: 0.5
+  num_workers: 4
+  min_lr: 1e-06
+  weight_decay: 0.001
+  smooth_factor: 0.1
+  diceloss_weight: 0.4
+  softcrossentropyloss_weight: 0.6
+  early_stop_patience: 15
+  num_classes: 2
+  random_seed: 42
+  pin_memory: true
+  prefetch_factor: 2
+paths:
+  train_data_dir: data\train
+  train_label_dir: data\train_labels
+  val_data_dir: data\val
+  val_label_dir: data\val_labels
+  test_data_dir: data\test
+  test_label_dir: data\test_labels
+  evaluation_dir: evaluate_results
+  prediction_dir: predict_results
+  train_dir: train_results
+  model_load_path: 
+    train_results\2025-05-17_08-05-36_training\checkpoints\Building-Extract-Model(UNetPlusPlus-ResNet34)_Input-Size(32x3x256x256)-NCHW_Epoch(80)_Init-LR(0.0001)__best-weights.pth
