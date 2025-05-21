@@ -1,0 +1,7 @@
+（1）https://blog.csdn.net/whaterverittakes/article/details/132561212
+（2）https://github.com/WangZhenqing-RS/2021Tianchi_RS/blob/main/code/train.py#L292
+（3）https://tianchi.aliyun.com/notebook/170488
+（4）https://blog.csdn.net/weixin_44095417/article/details/135255522
+（5）https://blog.csdn.net/qq_38308388/article/details/140119523?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4-140119523-blog-51346523.235^v43^control&spm=1001.2101.3001.4242.3&utm_relevant_index=6
+（6）https://zla.pub/numpy-only-confusion-matrix
+（7）https://tianchi.aliyun.com/dataset/93425
