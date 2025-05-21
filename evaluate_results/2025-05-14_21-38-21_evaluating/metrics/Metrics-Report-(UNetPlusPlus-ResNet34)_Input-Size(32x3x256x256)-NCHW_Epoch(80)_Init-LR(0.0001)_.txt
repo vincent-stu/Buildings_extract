@@ -1,0 +1,7 @@
+Evaluation Metrics:
+Mean IoU: 0.7810
+Overall Accuracy: 0.9277
+Per-Class Metrics:
+Class	IoU	Precision	Recall	F1-Score
+0	0.9167	0.9498	0.9634	0.9566
+1	0.6452	0.8131	0.7575	0.7843
